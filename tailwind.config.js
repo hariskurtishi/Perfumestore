@@ -1,8 +1,40 @@
-/** @type {import('tailwindcss').Config} */
+const config = require('tailwindcss/defaultTheme')
+
+// eslint-disable-next-line no-undef
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ['./components/**/*.js', './pages/**/*.js'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: 'Poppins, -apple-system, BlinkMacSystemFont',
+      },
+      colors: {
+        gray: {
+          ...config.colors.gray,
+          200: '#F4F4F4',
+        },
+        orange: {
+          50: '#ff8b88',
+          100: '#ff817e',
+          200: '#ff7774',
+          300: '#ff6d6a',
+          400: '#ff6360',
+          500: '#fd5956',
+          600: '#f34f4c',
+          700: '#e94542',
+          800: '#df3b38',
+          900: '#d5312e',
+        },
+      },
+    },
   },
-  plugins: [],
+  corePlugins: {
+    container: false,
+  },
+  plugins: [
+    // eslint-disable-next-line no-undef
+   
+    // eslint-disable-next-line no-undef
+   
+  ],
 }
