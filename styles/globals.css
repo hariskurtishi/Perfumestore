@@ -160,7 +160,7 @@ span.text-red {
 .hero-banner-container h3 {
   color: #374151;
   font-size: 4rem;
-  margin-top: 4px;
+  margin-top: -24px;
 }
 .hero-banner-container h1 {
   color: white;
@@ -617,7 +617,7 @@ span.text-red {
 
 @media screen and (max-width: 800px) {
   .hero-banner-container {
-    height: 860px;
+    height: 840px;
   }
   .hero-banner-image {
     width: 100%;
@@ -627,25 +627,25 @@ span.text-red {
     z-index: 2;
   }
   .footer-banner-container {
-    height: 560px;
+    height: 600px;
     margin-top: 80px;
   }
   .footer-banner-image {
-    width: 77%;
-    left: 10%;
-    top: -7%;
-    height: 76%;
+    width: 62%;
+    right: 62%;
+    top: 8%;
+    height: 56%;
   }
   .banner-desc .left h3 {
     font-weight: 900;
-    font-size: 50px;
-    margin-left: 5px;
+    font-size: 30px;
+    margin-left: 0px;
   }
   .banner-desc .left p {
-    margin: 18px;
+    margin: 3px;
   }
   .banner-desc .right h3 {
-    font-size: 45px;
+    font-size: 25px;
   }
   .banner-desc .right p {
     font-size: 18px;

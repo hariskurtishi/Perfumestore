@@ -4,7 +4,14 @@ import { AiFillInstagram, AiOutlineTwitter} from 'react-icons/ai';
 const Footer = () => {
   return (
     <div className="footer-container">
-      <p>2022 Beautenece All rights reserverd</p>
+         © All Rights Reserved. 2022 Made by {}
+                <a
+                  href="https://hariskurtishi.com/"
+                  className="transition-all hover:border-b"
+                  rel="noopener noreferrer"
+                >
+                  <span className="text-gray-950 hover:text-bg-gray-3">Haris Kurtishi</span>
+                </a>
       <p className="icons">
         <AiFillInstagram />
         <AiOutlineTwitter />
